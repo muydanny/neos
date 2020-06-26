@@ -15,4 +15,10 @@ class Printer
   def twin_carrots
     p ">>"
   end
+
+  def welcome_message
+    welcome
+    date
+    twin_carrots
+  end
 end
